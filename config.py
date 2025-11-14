@@ -9,7 +9,7 @@ class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8590179820:AAHVLA6j_GTXymf4imFbnT6ySmvVT1HrgYM")
 
     # Your Admin User ID
-    ADMIN_ID = int(os.environ.get("ADMIN_ID", "6139607609 5673859971"))
+    ADMIN_ID = int(os.environ.get("ADMIN_ID", "6139607609"))
     
     # Your Owner DB Channel ID
     OWNER_DB_CHANNEL = int(os.environ.get("OWNER_DB_CHANNEL", "-1003433884727"))
@@ -33,4 +33,4 @@ class Config:
     # VVVVVV YAHAN PAR NAYA TUTORIAL LINK ADD KIYA GAYA HAI VVVVVV #
     # ================================================================= #
     # Yahan apna tutorial video ya channel ka link daalein
-    TUTORIAL_URL = os.environ.get("TUTORIAL_URL", "")
+    BOT_UPDATE = os.environ.get("BOT_UPDATE", "https://t me/mzbotz")
